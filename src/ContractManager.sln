@@ -1,0 +1,99 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "app", "app", "{F3937326-C17E-4563-94D1-855FDAE37CD4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{98F0520D-266A-431F-AFD4-18971322D5A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContractManager.Web", "app\ContractManager.Web\ContractManager.Web.csproj", "{96AD810E-21E8-42CE-BCDF-B303E7AF9E45}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{DD184817-8BAB-43CE-8751-D3F0E0C6BB7C}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\AzureWebsitePublishModule.psm1 = PublishScripts\AzureWebsitePublishModule.psm1
+		PublishScripts\Publish-WebApplicationWebsite.ps1 = PublishScripts\Publish-WebApplicationWebsite.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configurations", "Configurations", "{327F3DD1-F83A-4BAF-AD1F-9B41B097611E}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Configurations\ContractManagerWeb-WAWS-dev.json = PublishScripts\Configurations\ContractManagerWeb-WAWS-dev.json
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContractManager.Domain", "app\ContractManager.Domain\ContractManager.Domain.csproj", "{E8CCA62C-95CA-4B4C-B1AF-B845CA138216}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContractManager.Infrastructure", "app\ContractManager.Infrastructure\ContractManager.Infrastructure.csproj", "{CE8ABADD-CBA9-4191-8429-504B399CFA9A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContractManager.Application", "app\ContractManager.Application\ContractManager.Application.csproj", "{C6A1C568-A580-4B49-8AF7-8141A800E0C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests.Unit.ContractManager", "tests\Tests.Unit.ContractManager\Tests.Unit.ContractManager.csproj", "{74C6EE40-5F66-43D4-91AE-4B366A4B693B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests.Integration.ContractManager", "tests\Tests.Integration.ContractManager\Tests.Integration.ContractManager.csproj", "{D96C798E-FEA0-4399-A65F-E5A692E16149}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 verification", "01 verification", "{6FF372A2-5C26-421C-B8C3-D775059506F3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 validation", "02 validation", "{1A73CB8D-ED36-4131-A24E-157636A06954}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests.Acceptance.ContractManager", "tests\Tests.Acceptance.ContractManager\Tests.Acceptance.ContractManager.csproj", "{BD529B23-91BC-4612-A371-5591696F9BAF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests.Functional.ContractManager", "tests\Tests.Functional.ContractManager\Tests.Functional.ContractManager.csproj", "{940CF047-F14B-4C1E-ADE3-D6DCD1183714}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00 library", "00 library", "{40BAE0CC-0691-4A10-A667-18D232A88A43}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{96AD810E-21E8-42CE-BCDF-B303E7AF9E45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96AD810E-21E8-42CE-BCDF-B303E7AF9E45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96AD810E-21E8-42CE-BCDF-B303E7AF9E45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96AD810E-21E8-42CE-BCDF-B303E7AF9E45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8CCA62C-95CA-4B4C-B1AF-B845CA138216}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8CCA62C-95CA-4B4C-B1AF-B845CA138216}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8CCA62C-95CA-4B4C-B1AF-B845CA138216}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8CCA62C-95CA-4B4C-B1AF-B845CA138216}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE8ABADD-CBA9-4191-8429-504B399CFA9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE8ABADD-CBA9-4191-8429-504B399CFA9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE8ABADD-CBA9-4191-8429-504B399CFA9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE8ABADD-CBA9-4191-8429-504B399CFA9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6A1C568-A580-4B49-8AF7-8141A800E0C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6A1C568-A580-4B49-8AF7-8141A800E0C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6A1C568-A580-4B49-8AF7-8141A800E0C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6A1C568-A580-4B49-8AF7-8141A800E0C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74C6EE40-5F66-43D4-91AE-4B366A4B693B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74C6EE40-5F66-43D4-91AE-4B366A4B693B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74C6EE40-5F66-43D4-91AE-4B366A4B693B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74C6EE40-5F66-43D4-91AE-4B366A4B693B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D96C798E-FEA0-4399-A65F-E5A692E16149}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D96C798E-FEA0-4399-A65F-E5A692E16149}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D96C798E-FEA0-4399-A65F-E5A692E16149}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D96C798E-FEA0-4399-A65F-E5A692E16149}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD529B23-91BC-4612-A371-5591696F9BAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD529B23-91BC-4612-A371-5591696F9BAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD529B23-91BC-4612-A371-5591696F9BAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD529B23-91BC-4612-A371-5591696F9BAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{940CF047-F14B-4C1E-ADE3-D6DCD1183714}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{940CF047-F14B-4C1E-ADE3-D6DCD1183714}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{940CF047-F14B-4C1E-ADE3-D6DCD1183714}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{940CF047-F14B-4C1E-ADE3-D6DCD1183714}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{96AD810E-21E8-42CE-BCDF-B303E7AF9E45} = {F3937326-C17E-4563-94D1-855FDAE37CD4}
+		{327F3DD1-F83A-4BAF-AD1F-9B41B097611E} = {DD184817-8BAB-43CE-8751-D3F0E0C6BB7C}
+		{E8CCA62C-95CA-4B4C-B1AF-B845CA138216} = {F3937326-C17E-4563-94D1-855FDAE37CD4}
+		{CE8ABADD-CBA9-4191-8429-504B399CFA9A} = {F3937326-C17E-4563-94D1-855FDAE37CD4}
+		{C6A1C568-A580-4B49-8AF7-8141A800E0C4} = {F3937326-C17E-4563-94D1-855FDAE37CD4}
+		{74C6EE40-5F66-43D4-91AE-4B366A4B693B} = {6FF372A2-5C26-421C-B8C3-D775059506F3}
+		{D96C798E-FEA0-4399-A65F-E5A692E16149} = {6FF372A2-5C26-421C-B8C3-D775059506F3}
+		{6FF372A2-5C26-421C-B8C3-D775059506F3} = {98F0520D-266A-431F-AFD4-18971322D5A6}
+		{1A73CB8D-ED36-4131-A24E-157636A06954} = {98F0520D-266A-431F-AFD4-18971322D5A6}
+		{BD529B23-91BC-4612-A371-5591696F9BAF} = {1A73CB8D-ED36-4131-A24E-157636A06954}
+		{940CF047-F14B-4C1E-ADE3-D6DCD1183714} = {1A73CB8D-ED36-4131-A24E-157636A06954}
+		{40BAE0CC-0691-4A10-A667-18D232A88A43} = {98F0520D-266A-431F-AFD4-18971322D5A6}
+	EndGlobalSection
+EndGlobal
