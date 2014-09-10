@@ -15,7 +15,6 @@ namespace ContractManager.Web.Controllers
 
         public ActionResult About()
         {
-            Convert.ToInt32("x");
             ViewBag.Message = "Your application description page.";
 
             return View();
