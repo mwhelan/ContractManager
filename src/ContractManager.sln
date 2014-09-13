@@ -40,6 +40,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00 library", "00 library", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContractManager.Web", "app\ContractManager.Web\ContractManager.Web.csproj", "{F9187EA9-A7B3-455C-A0DC-7E459C7FAF01}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContractManager.Jobs", "app\ContractManager.Jobs\ContractManager.Jobs.csproj", "{60DE9EBC-2325-4FB9-9EC1-11590A96D675}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -78,6 +80,10 @@ Global
 		{F9187EA9-A7B3-455C-A0DC-7E459C7FAF01}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F9187EA9-A7B3-455C-A0DC-7E459C7FAF01}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F9187EA9-A7B3-455C-A0DC-7E459C7FAF01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60DE9EBC-2325-4FB9-9EC1-11590A96D675}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60DE9EBC-2325-4FB9-9EC1-11590A96D675}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60DE9EBC-2325-4FB9-9EC1-11590A96D675}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60DE9EBC-2325-4FB9-9EC1-11590A96D675}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -95,5 +101,6 @@ Global
 		{940CF047-F14B-4C1E-ADE3-D6DCD1183714} = {1A73CB8D-ED36-4131-A24E-157636A06954}
 		{40BAE0CC-0691-4A10-A667-18D232A88A43} = {98F0520D-266A-431F-AFD4-18971322D5A6}
 		{F9187EA9-A7B3-455C-A0DC-7E459C7FAF01} = {F3937326-C17E-4563-94D1-855FDAE37CD4}
+		{60DE9EBC-2325-4FB9-9EC1-11590A96D675} = {F3937326-C17E-4563-94D1-855FDAE37CD4}
 	EndGlobalSection
 EndGlobal

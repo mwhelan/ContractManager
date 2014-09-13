@@ -2,6 +2,7 @@
 using System.Web.Optimization;
 using System.Web.Routing;
 using ContractManager.Infrastructure.Data;
+using ContractManager.Web.App_Start;
 
 namespace ContractManager.Web
 {
@@ -10,6 +11,7 @@ namespace ContractManager.Web
         protected void Application_Start()
         {
             AreaRegistration.RegisterAllAreas();
+            IocConfig.RegisterDependencies();
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);

@@ -12,6 +12,8 @@ namespace ContractManager.Infrastructure.Data
         public DatabaseContext(string connectionString) 
             : base(connectionString) { }
 
-        public IDbSet<Job> Jobs { get; set; } 
+        public IDbSet<Job> Jobs { get; set; }
+        public IDbSet<Agent> Agents { get; set; }
+        public IDbSet<Agency> Agency { get; set; }
     }
 }

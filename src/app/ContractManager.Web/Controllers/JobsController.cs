@@ -1,17 +1,22 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.Mvc;
+﻿using System.Web.Mvc;
+using ContractManager.Application.Services;
 
 namespace ContractManager.Web.Controllers
 {
     public class JobsController : Controller
     {
+        private readonly IJobService _jobService;
+
+        public JobsController(IJobService jobService)
+        {
+            _jobService = jobService;
+        }
+
         // GET: Jobs
         public ActionResult Index()
         {
-            return View();
+            var jobs = _jobService.GetJobs();
+            return View(jobs);
         }
 
         // GET: Jobs/Details/5
